@@ -16,12 +16,12 @@ $container = $containerBuilder->build();
 // Create App instance
 $app = $container->get(App::class);
 
-$app->setBasePath('/oom-2022');
+$app->setBasePath('/order_of_merit');
 
 $container->set('templating', function() {
     return new Mustache_Engine([
         'loader' => new Mustache_Loader_FilesystemLoader(
-            __DIR__ . '../../src/templates',
+            __DIR__ . '/../src/templates',
             ['extension' => '']
         )
     ]);

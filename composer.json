@@ -10,12 +10,12 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "mustache/mustache": "^2.13",
         "php-di/php-di": "^6.0",
         "selective/basepath": "dev-master",
         "slim/php-view": "3.x-dev",
-        "slim/psr7": "^1",
-        "slim/slim": "^4.4",
-        "mustache/mustache": "^2.13"
+        "slim/psr7": "dev-master",
+        "slim/slim": "4.*"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.4"
